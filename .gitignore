@@ -13,6 +13,18 @@
 
 # Ignore all logfiles and tempfiles.
 /log/*
-/tmp/*
 !/log/.keep
-!/tmp/.keep
+/tmp
+vendor/assets/components
+/.bundle
+/vendor/bundle
+.bundle
+vendor/bundle
+*.pid
+*.DS_Store
+dump.rdb
+/config/database.yml
+/db/schema.rb
+/public/uploads/*
+/public/assets/*
+/node_modules
