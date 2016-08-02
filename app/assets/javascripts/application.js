@@ -14,4 +14,5 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require channels
+//= require components
 //= require_tree .

@@ -3,6 +3,10 @@ class CommentsController < ApplicationController
 
   def create
     @comment = Comment.create! content: params[:comment][:content], message: @message, user: @current_user
+    respond_to do |format|
+      format.js { render nothing: true }
+      format.json
+    end
   end
 
   private

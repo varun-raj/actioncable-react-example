@@ -1,5 +1,1 @@
-<h1><%= @message.title %></h1>
-
-<p><%= @message.content %></p>
-
-<%= render 'comments/comments', message: @message %>
+<%= react_component "MessageContainer", { url: message_path(@message), post_url: message_comments_path(@message) }  %>

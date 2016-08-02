@@ -15,6 +15,10 @@ gem 'turbolinks', github: "rails/turbolinks"
 
 gem 'jbuilder', '~> 2.0'
 
+# React and NPM
+gem 'react-rails', '1.7.0'
+gem 'browserify-rails'
+
 group :development, :test do
   gem 'byebug'
 end
