@@ -17,6 +17,11 @@ You must have redis installed and running on the default port:6379 (or configure
 ##### On Mac
 * `brew install redis`
 
+### Installing Node modules
+
+* `npm install`
+
+
 ###### Note: You must have Ruby 2.2.2 installed in order to use redis
 
 ## Starting the servers
